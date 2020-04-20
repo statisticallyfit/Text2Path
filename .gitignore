@@ -1,0 +1,16 @@
+data
+
+.idea/
+.idea
+.idea/*
+
+.mypy_cache/
+
+.ipynb_checkpoints/
+
+.data/
+data/
+tokenizers/
+
+
+__pycache__/

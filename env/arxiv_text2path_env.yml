@@ -1,0 +1,47 @@
+name: arxiv_text2path_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+
+  # ========================
+  # Core
+  # ========================
+  - mypy
+  - typing 
+  - pip
+  - python
+  - jupytext
+  - jupyterlab
+  - ipywidgets
+  - python-language-server
+  - ipykernel
+
+  # ========================
+  # NLP
+  # ========================
+  - numpy
+  - scikit-learn
+  - pytorch>=1.4.0
+  - tensorflow
+  - keras
+  - networkx
+  #/////- unicodedata --- already in python 3!!
+  #/////- argparse --- already in python 3
+  #///// - logging -- already in python 3!
+
+  # ==============
+  # Plotting
+  # ==============
+  - matplotlib
+  - seaborn
+  - plotly
+
+
+  # ==============
+  # Pip things
+  # ============== 
+  #- pip:
+
+prefix: /development/bin/python/conda3_ana/envs/arxiv_text2path_env
+
